@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from "react";
+import Header from "./components/Header";
+import EditarProducto from "./components/EditarProducto";
+import {
+  BrowserRouter as Tafur,
+  Routes,
+  Route,
+} from "react-router-dom";
+import Productos from "./components/Productos";
+import NuevoProducto from "./components/NuevoProducto";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+    <Tafur>
+      <Header />  
+      <div className="container">
+        <Routes>
+          <Route exact path="/" element={<Productos/>} />
+          <Route exact path="/nuevo/producto/tafur" element={<NuevoProducto/>} />
+          <Route exact path="/editar/tafur/:id" element={<EditarProducto/>} />
 
+          </Routes>
+      </div>
+    </Tafur>
+  );
+} 
 export default App;
