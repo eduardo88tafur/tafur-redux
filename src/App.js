@@ -12,6 +12,7 @@ function App() {
 
   const store = configureStore();
   return (
+    
     <Tafur>
       <Provider store={store}>
         <Header />

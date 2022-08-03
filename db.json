@@ -59,6 +59,81 @@
       "nombre": "zapatos",
       "precio": 887878,
       "id": 12
+    },
+    {
+      "nombre": "balon",
+      "precio": 999,
+      "id": 13
+    },
+    {
+      "nombre": "libros",
+      "precio": 6565656565,
+      "id": 14
+    },
+    {
+      "nombre": "celular ",
+      "precio": 4444444,
+      "id": 15
+    },
+    {
+      "nombre": "zapatos",
+      "precio": 55555555555555560000,
+      "id": 16
+    },
+    {
+      "nombre": "libros",
+      "precio": 8.88888888888889e+28,
+      "id": 17
+    },
+    {
+      "nombre": "control",
+      "precio": 698989,
+      "id": 18
+    },
+    {
+      "nombre": "control",
+      "precio": 698989,
+      "id": 19
+    },
+    {
+      "nombre": "celular ",
+      "precio": 7676767676,
+      "id": 20
+    },
+    {
+      "nombre": "celular ",
+      "precio": 1,
+      "id": 21
+    },
+    {
+      "nombre": "celular ",
+      "precio": 1,
+      "id": 22
+    },
+    {
+      "nombre": "celular ",
+      "precio": 1,
+      "id": 23
+    },
+    {
+      "nombre": "celular ",
+      "precio": 1,
+      "id": 24
+    },
+    {
+      "nombre": "zapatos",
+      "precio": 88,
+      "id": 25
+    },
+    {
+      "nombre": "libros",
+      "precio": 88,
+      "id": 26
+    },
+    {
+      "nombre": "libros",
+      "precio": 88,
+      "id": 27
     }
   ]
 }

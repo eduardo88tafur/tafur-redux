@@ -19,7 +19,7 @@ const NuevoProducto = ({ histoy }) => {
       nombre,
       precio,
     });
-    histoy.push('/')
+   // histoy.push('/');
   };
   return (
     <div className="row justify-content-center">
